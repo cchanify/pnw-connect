@@ -7,14 +7,32 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
+.App-title {
+  min-height: 10vh;
+  font-size: calc(50px + 2vmin);
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #844ea6 !important;
+    border-color: #844ea6 !important;
+}
+
+.App-description {
+  color: #666666;
+}
+
+.App-button-link {
+  background-color: purple;
+}
+
+/*@media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
+}*/
 
 .App-header {
-  background-color: #282c34;
+  background-color: white;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
